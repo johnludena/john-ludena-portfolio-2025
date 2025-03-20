@@ -65,6 +65,26 @@ export default function Hero() {
       className="pt-36 sm:pt-0 flex flex-col sm:flex-row h-dvh items-center gap-6 sm:justify-between"
       id="home"
     >
+      
+      {/* IMAGE */}
+      <div data-blobity-tooltip="Soft man">
+        <motion.div
+          ref={imgRef}
+          style={{ rotate }}
+          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
+          initial={{ opacity: 0 }}
+          animate={animateIn1}
+        >
+          <Image
+            src="/headshot.jpg"
+            priority
+            fill
+            alt="John's picture"
+            className="bg-image-radial object-contain"
+          />
+        </motion.div>
+      </div>
+      
       <div className="text sm:w-[60%]">
         <motion.div
           className="grid grid-cols-9 w-fit smm:flex gap-2 mb-2 xl:mb-6"
@@ -95,9 +115,9 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-linear-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            John Ludena
           </span>
-          <p>a Software Engineer</p>
+          <p>a Full Stack Engineer</p>
         </motion.h1>
 
         <motion.p
@@ -109,24 +129,6 @@ export default function Hero() {
         </motion.p>
       </div>
 
-      {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
-        <motion.div
-          ref={imgRef}
-          style={{ rotate }}
-          className="h-image flex items-center w-[310px] h-[380px] xl:w-[390px] xl:h-[470px] justify-center relative"
-          initial={{ opacity: 0 }}
-          animate={animateIn1}
-        >
-          <Image
-            src="/transparent-ade-min.png"
-            priority
-            fill
-            alt="Ade's picture"
-            className="bg-image-radial px-10 pt-20"
-          />
-        </motion.div>
-      </div>
     </section>
   );
 }

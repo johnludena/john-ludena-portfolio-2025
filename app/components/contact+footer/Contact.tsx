@@ -48,11 +48,11 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
-        `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`,
+        `${process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID}`,
+        `${process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID}`,
         formRef.current as HTMLFormElement,
         {
-          publicKey: `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`,
+          publicKey: `${process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY}`,
         }
       )
       .then(
@@ -181,15 +181,15 @@ export default function Contact() {
                 >
                   <div className="flex gap-1 flex-col">
                     <label
-                      htmlFor="userName"
+                      htmlFor="sender_name"
                       className="opacity-70 text-sm lg:text-base "
                     >
                       Name
                     </label>
                     <input
                       type="text"
-                      id="userName"
-                      {...register("userName", {
+                      id="sender_name"
+                      {...register("sender_name", {
                         required: "I need to know your name",
                         pattern: {
                           value: /^[a-zA-Z][a-zA-Z0-9]{2,}/,
@@ -198,23 +198,23 @@ export default function Contact() {
                       })}
                       className="bg-transparent rounded-md border border-[#737373c4] focus:border-[#9f9d9dc4] outline-hidden py-1 pl-2"
                     />
-                    {errors?.userName && (
+                    {errors?.sender_name && (
                       <span className="text-red-400 text-xs">
-                        {errors?.userName?.message as string}
+                        {errors?.sender_name?.message as string}
                       </span>
                     )}
                   </div>
                   <div className="flex gap-1 flex-col">
                     <label
-                      htmlFor="userEmail"
+                      htmlFor="sender_email"
                       className="opacity-70 text-sm lg:text-base "
                     >
                       Email
                     </label>
                     <input
-                      id="userEmail"
+                      id="sender_email"
                       type="email"
-                      {...register("userEmail", {
+                      {...register("sender_email", {
                         required: "Enter a correct email address",
                         pattern: {
                           value: /\S+@\S+\.\S+/,
@@ -223,31 +223,31 @@ export default function Contact() {
                       })}
                       className="bg-transparent rounded-md border border-[#737373c4] focus:border-[#9f9d9dc4] outline-hidden py-1 pl-2"
                     />
-                    {errors?.userEmail && (
+                    {errors?.sender_email && (
                       <span className="text-red-400 text-xs">
-                        {errors?.userEmail?.message as string}
+                        {errors?.sender_email?.message as string}
                       </span>
                     )}
                   </div>
                   <div className="flex gap-1 flex-col">
                     <label
-                      htmlFor="userMessage"
+                      htmlFor="message"
                       className="opacity-70 text-sm lg:text-base"
                     >
                       Message
                     </label>
                     <textarea
-                      id="userMessage"
-                      {...register("userMessage", {
+                      id="message"
+                      {...register("message", {
                         required: "I'll appreciate what you have to say.",
                       })}
                       rows={4}
                       cols={50}
                       className="bg-transparent rounded-md border border-[#737373c4] focus:border-[#9f9d9dc4] outline-hidden py-1 pl-2"
                     />
-                    {errors?.userMessage && (
+                    {errors?.message && (
                       <span className="text-red-400 text-xs">
-                        {errors?.userMessage?.message as string}
+                        {errors?.message?.message as string}
                       </span>
                     )}
                   </div>

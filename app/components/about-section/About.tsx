@@ -33,27 +33,31 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
         <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in creating strong business solutions that aid
-            business growth. Whether it&apos;s a website to boost brand
-            publicity or software solutions that streamline otherwise manual
-            processes, I love taking brands from point A to the their dreamy
-            point B and iteratively improve as time goes on.
+            My passion lies in crafting seamless digital experiences that drive
+            business growth. Whether it&apos;s building high-performance web
+            applications, optimizing API interactions, or refining frontend
+            architectures, I take pride in delivering scalable solutions that
+            enhance brand visibility and efficiency.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
-            I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
-            complexity as time goes by to ensure improvement.
+            With over 14 years of experience, I&apos;ve honed my expertise
+            across frontend and backend technologies, DevOps, and performance
+            optimization. From migrating enterprise platforms to React and
+            Next.js to engineering microservices and real-time dashboards, I
+            thrive on solving complex challenges that improve system performance
+            and user experience.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each challenge is unique so I ensure that I learn and grow through
-            each one ensuring that I not only put in my best but also deliver
-            solutions that businesses are proud to call their own. Wanna learn
-            more? Here&apos;s <br className="hidden md:block" />
+            Each project is an opportunity to innovate and push the boundaries
+            of what&apos;s possible. I continuously refine my skills, embracing
+            new tools and methodologies to create solutions that businesses are
+            proud to call their own. Here&apos;s{" "}
+            <br className="hidden md:block" />
             <Link
               className="underline"
+              target="_blank"
               href={
-                "https://drive.google.com/file/d/1Rd-IB_5pxsGj4RDtHjEggPB392ND29xB/view?usp=sharing"
+                "https://drive.google.com/file/d/1dwIbYRWpD5DeyyjMXe1Rgwhw2r_KKaWB"
               }
             >
               my résumè
@@ -69,11 +73,11 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Frontend Tools
+              Frontend
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
-              Toolkit, React Query, HTML5, Git/GitHub, React Hook Form, Formik.
+              React, Next.js, Redux, Angular, TypeScript, JavaScript, SSR,
+              Storybook, TailwindCSS, Material-UI, Ant Design, Radix UI
             </AnimatedBody>
           </div>
           <div>
@@ -82,11 +86,11 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              UI Libraries
+              Backend
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+              Node.js, Express.js, GraphQL, REST APIs, MongoDB, PostgreSQL,
+              Redis, Firebase, OAuth, JWT
             </AnimatedBody>
           </div>
           <div>
@@ -95,10 +99,12 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Design Tools
+              DevOps
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Figma, FigJam, UX Research, UI Design, Prototyping.
+              Docker, Kubernetes, Webpack, Vite, CI/CD, GitHub Actions,
+              CircleCI, Jenkins, Cypress, Jest, Playwright, Unit Testing, E2E
+              Testing, AWS, CloudFront, Vercel, Netlify
             </AnimatedBody>
           </div>
         </div>

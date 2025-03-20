@@ -46,10 +46,10 @@ export default function TimelineItem({
       <div className="grid grid-cols-5 sm:flex items-start gap-4 pl-4">
         <Image
           src={companyImg}
-          width={70}
-          height={70}
+          width={48}
+          height={48}
           alt="company-image"
-          className="col-span-1"
+          className="col-span-1 w-12 h-12 bg-white rounded-lg"
         />
 
         {/* ALL THE TEXT*/}

@@ -13,31 +13,58 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
+      title: "Joy",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      liveLink: "https://withjoy.com/",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/offset-folio.svg",
+        "Joy is a comprehensive wedding planning platform that enables couples to create personalized wedding websites, manage guest lists, send invitations, and build all-in-one registries with zero fees on cash funds.",
+      stack: [
+        "NODE.JS",
+        "JAVASCRIPT",
+        "REACT.js",
+        "GRAPHQL",
+        "POSTGRESQL",
+        "AMAZON S3",
+        "NGINX",
+        "FIREBASE",
+        "CLOUDFLARE",
+        "GOOGLE ANALYTICS",
+      ],
+      img: "/withjoy.png",
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "Pomodoro Champion",
+      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
+      liveLink: "https://pomodorochampion.com/",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/shortly.svg",
+        "Pomodoro Champion is an application designed to help users manage their screen time effectively by implementing the Pomodoro Technique—a time management method that encourages working in focused intervals, typically 25 minutes, followed by short breaks.",
+      stack: [
+        "react.js",
+        "react native",
+        "tailwind css",
+        "ios",
+        "android",
+        "websocket",
+      ],
+      img: "/pomodoro-champion.png",
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "Botpress",
+      // gitLink: "https://github.com/adex-hub/where-in-the-world",
+      liveLink: "https://botpress.com/",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
-      img: "/witw.svg",
+        "Botpress is a comprehensive platform for building AI agents powered by the latest Large Language Models (LLMs). It enables developers to create, deploy, and manage conversational AI applications efficiently.",
+      stack: [
+        "react",
+        "react-router",
+        "javascript",
+        "tailwindcss",
+        "NODE.JS",
+        "POSTGRESQL",
+        "THREE.JS",
+        "SALESFORCE",
+      ],
+      img: "/botpress.jpg",
     },
     // {
     //   title: "Yourtodo",
@@ -49,13 +76,13 @@ export default function Works() {
     //   img: "/todo.svg",
     // },
     {
-      title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
+      title: "Chevron",
+      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
+      liveLink: "https://chevron.com/",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
-      img: "/multistep.svg",
+        "Chevron is a multinational energy corporation committed to delivering affordable, reliable, and ever-cleaner energy. The company engages in various sectors, including oil and gas exploration, refining, marketing, and the development of renewable energy solutions.",
+      stack: ["ANGULAR","HTML","CSS","AZURE",".NET","C#","SQL","POWER BI","DEVOPS","GIT DOCKER","KUBERNETES"],
+      img: "/chevron-corp.png",
     },
   ];
 
@@ -80,7 +107,7 @@ export default function Works() {
           key={index}
           img={work.img}
           title={work.title}
-          gitLink={work.gitLink}
+          // gitLink={work.gitLink}
           liveLink={work.liveLink}
           about={work.about}
           stack={work.stack}
