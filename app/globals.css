@@ -79,6 +79,31 @@ html.light .text-white\/70 {
   color: rgba(0, 0, 0, 0.7);
 }
 
+html.light .border-white {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+
+:root {
+  --header-text: rgba(255, 255, 255, 0.25);
+  --header-text-active: #fff;
+  --header-text-hover: rgba(255, 255, 255, 0.75);
+}
+
+html.light {
+  --header-text: rgba(0, 0, 0, 0.25);
+  --header-text-active: #000;
+  --header-text-hover: rgba(0, 0, 0, 0.75);
+}
+
+.group:hover {
+  color: var(--header-text-hover) !important;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark .group:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
 html.light .bg-icon-radial {
   background: rgba(0, 0, 0, 0.05);
 }
@@ -98,7 +123,7 @@ html.light .bg-white\/20 {
 }
 
 /* Dark mode gradient */
-.dark .name-gradient {
+html:not(.light) .name-gradient {
   background: linear-gradient(to bottom right, #FFD700, #FFEB3B, #FFC107);
   -webkit-background-clip: text;
   background-clip: text;
@@ -106,7 +131,7 @@ html.light .bg-white\/20 {
 }
 
 /* Light mode gradient */
-.light .name-gradient {
+html.light .name-gradient {
   background: linear-gradient(to bottom right, #5067D5, #4056C4, #3045B3);
   -webkit-background-clip: text;
   background-clip: text;

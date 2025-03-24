@@ -30,12 +30,11 @@ export default function About() {
         I’m Driven to Build Products That People Love
       </AnimatedTitle>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
+      <div className="flex flex-col gap-8 mt-6">
         <div className="flex flex-col antialiased space-y-4 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
           Fifteen years ago, a career that started as a love for great website design has now transformed into a passion for building great software and a relentless curiosity to make products that make a positive impact on the world.
           </AnimatedBody>
-
 
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
           Curious to know more about me? Here is {" "}
@@ -52,7 +51,7 @@ export default function About() {
           </AnimatedBody>
         </div>
 
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:mt-10">
           <div>
             <AnimatedTitle
               wordSpace={"mr-[0.5ch]"}
@@ -62,8 +61,7 @@ export default function About() {
               Frontend
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              React.js, Next.js, Redux, Angular, React Native, Capacitor.js, TypeScript, JavaScript, SSR,
-              Storybook, TailwindCSS, Material-UI, Ant Design, Radix UI
+              React.js, Next.js, Redux, Angular, React Native, Capacitor.js, TypeScript, JavaScript, jQuery, SSR, Storybook.js, TailwindCSS, MaterialUI, Ant Design, Radix UI, Bootstrap
             </AnimatedBody>
           </div>
           <div>
@@ -75,8 +73,7 @@ export default function About() {
               Backend
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              Node.js, Express.js, GraphQL, REST APIs, MongoDB, PostgreSQL,
-              Redis, Firebase, Google Cloud, OAuth, JWT
+              Node.js, Express.js, GraphQL, REST APIs, Firebase, AWS, Google Cloud, OAuth, JWT, PHP, Wordpress, Drupal, MongoDB, Shopify
             </AnimatedBody>
           </div>
           <div>
@@ -90,7 +87,7 @@ export default function About() {
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
               Docker, Kubernetes, Webpack, Vite, CI/CD, GitHub Actions,
               CircleCI, Jenkins, Cypress, Jest, Unit Testing, E2E
-              Testing, AWS, CloudFront, Vercel, Netlify
+              Testing, AWS, CloudFront, Vercel, Netlify, Composer
             </AnimatedBody>
           </div>
         </div>

@@ -57,6 +57,9 @@ export default function FolioCard({
               aria-label="View Github Repo"
               data-blobity-radius="34"
               data-blobity-magnetic="true"
+              data-blobity-tooltip="Visit site in new tab"
+              data-blobity-tooltip-position="top"
+              // data-blobity-tooltip-offset-x="100"
             >
               <Icon icon="line-md:external-link-rounded" />
             </Link>

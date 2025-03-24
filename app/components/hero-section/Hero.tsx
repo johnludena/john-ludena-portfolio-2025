@@ -92,7 +92,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
+          <p className="text-white/80 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
             Hi there
           </p>
           <motion.div
@@ -100,12 +100,7 @@ export default function Hero() {
             style={{ transformOrigin: "bottom right" }}
             className="col-span-3"
           >
-            <Image
-              src="/hand-wave.svg"
-              width={30}
-              height={30}
-              alt="hand-waving"
-            />
+           <span className="text-3xl">👋</span>
           </motion.div>
         </motion.div>
         <motion.h1
@@ -113,7 +108,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
-          <p className="text-white/60 inline">I&apos;m </p>
+          <p className="inline">I&apos;m </p>
           <span className="name-gradient">
             John Ludena
           </span>,
@@ -123,7 +118,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0 }}
           animate={animateIn2}
-          className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
+          className="text-white/80  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
           currently focused on building world-class user experiences that drive growth
         </motion.p>

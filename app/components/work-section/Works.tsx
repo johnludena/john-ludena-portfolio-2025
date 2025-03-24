@@ -54,7 +54,7 @@ export default function Works() {
       ref={ref}
       id="work"
     >
-      <Title>Currently building</Title>
+      <Title>Recent Work</Title>
       {works.map((work, index) => (
         <FolioCard
           key={index}

@@ -15,7 +15,9 @@ export default function Footer() {
       className="my-6 sm:my-8 text-sm sm:text-base lg:text-lg flex md:justify-between justify-center"
     >
       <p>
-        <span className="text-xl sm:text-2xl">&copy;</span> {curYear} . JOHN LUDENA . ALL RIGHTS RESERVED
+        <span className="text-sm sm:text-base">
+          &copy; {curYear} All rights reserved.
+        </span> 
       </p>
       {/* <Link
         className="md:flex hidden items-center gap-1 leading-tight"
