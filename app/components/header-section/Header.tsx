@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 import { AnimatePresence, motion } from "framer-motion";
+import ThemeToggle from "../ui/ThemeToggle";
 
 export default function Header() {
   const { sectionInView } = useView();
@@ -54,16 +55,20 @@ export default function Header() {
               Contact
             </Link>
           </ul>
-          <div className="gap-5 text-xl hidden sm:flex">
-            <Link target="_blank" href="https://linkedin.com/in/john-ludena">
-              <Icon icon="hugeicons:linkedin-01" />
-            </Link>
-            <Link target="_blank" href="https://github.com/johnludena">
-              <Icon icon="hugeicons:github" />
-            </Link>
-            <Link target="_blank" href="https://x.com/JohnnyCommits">
-              <Icon icon="akar-icons:x-fill" />
-            </Link>
+          <div className="gap-5 text-xl hidden sm:flex items-center">
+            <div className="flex gap-5">
+              <Link target="_blank" href="https://linkedin.com/in/john-ludena">
+                <Icon icon="hugeicons:linkedin-01" />
+              </Link>
+              <Link target="_blank" href="https://github.com/johnludena">
+                <Icon icon="hugeicons:github" />
+              </Link>
+              <Link target="_blank" href="https://x.com/JohnnyCommits">
+                <Icon icon="akar-icons:x-fill" />
+              </Link>
+            </div>
+            <div className="w-px h-5 bg-white/20" />
+            <ThemeToggle />
           </div>
         </div>
       </div>

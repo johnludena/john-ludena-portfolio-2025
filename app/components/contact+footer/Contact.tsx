@@ -115,7 +115,7 @@ export default function Contact() {
                 charSpace={"mr-[0.001em]"}
                 className="text-xl sm:text-2xl md:text-[32px] lg:text-[40px] font-bold"
               >
-                GOT A PROJECT IN MIND?
+                NEED TO GET IN TOUCH?
               </AnimatedTitle>
               <Link href="#footer" data-no-blobity>
                 <span
@@ -125,7 +125,7 @@ export default function Contact() {
                   }}
                   className="sm:mt-0 text-xl sm:text-2xl md:text-[32px] w-fit underline lg:text-[40px] font-bold leading-tight hidden sm:block lg:hidden"
                 >
-                  CONTACT ME
+                  SAY HELLO
                 </span>
               </Link>
             </div>
@@ -143,7 +143,7 @@ export default function Contact() {
                   setFormDisplay(!formDisplay);
                 }}
               >
-                CONTACT&nbsp;ME
+                SAY&nbsp;HELLO
               </button>
             </Link>
           </div>

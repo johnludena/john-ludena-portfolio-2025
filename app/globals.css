@@ -49,22 +49,86 @@
   scroll-behavior: smooth;
 }
 
+/* Add smooth transitions for theme changes */
 body {
-  background: #08233b;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background: #000000;
   color: white;
   overscroll-behavior: none;
+}
 
-  &::-webkit-scrollbar {
-    width: 10px;
-    /* background-color: #d9d9d91f; /* Matches the theme */
-    background-color: #333;
-  }
+/* Light mode styles */
+html.light body {
+  background: #ffffff;
+  color: #1a1a1a;
+}
 
-  &::-webkit-scrollbar-thumb {
-    /* background-color: #3c84c7; /* Matches the theme */
-    background-color: #666;
-    border-radius: 5px;
-  }
+html.light .text-white\/40 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+html.light .text-white\/60 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+html.light .text-white\/80 {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+html.light .text-white\/70 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+html.light .bg-icon-radial {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+html.light .bg-linear-to-r {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));
+}
+
+html.light .std-backdrop-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+html.light .bg-white\/20 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode gradient */
+.dark .name-gradient {
+  background: linear-gradient(to bottom right, #FFD700, #FFEB3B, #FFC107);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Light mode gradient */
+.light .name-gradient {
+  background: linear-gradient(to bottom right, #5067D5, #4056C4, #3045B3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+html.light body::-webkit-scrollbar {
+  background-color: #f0f0f0;
+}
+
+html.light body::-webkit-scrollbar-thumb {
+  background-color: #999;
 }
 
 .h-image {
@@ -106,6 +170,22 @@ body {
   transform: perspective(300px) rotateY(180deg);
 } */
 
+/* .card .back {
+  transition: opacity 0.3s ease 1s;
+} */
+
+.custom-toast {
+  background-color: #081e32 !important;
+
+  .Toastify__progress-bar {
+    background-color: #548fba;
+  }
+}
+
+.std-backdrop-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
 /* .card .back {
   transition: opacity 0.3s ease 1s;
 } */

@@ -67,7 +67,7 @@ export default function Hero() {
     >
       
       {/* IMAGE */}
-      <div data-blobity-tooltip="Soft man">
+      <div data-blobity-tooltip="Hi">
         <motion.div
           ref={imgRef}
           style={{ rotate }}
@@ -93,7 +93,7 @@ export default function Hero() {
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
           <p className="text-white/60 text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6">
-            Hey, there
+            Hi there
           </p>
           <motion.div
             animate={handWaveAnimation}
@@ -114,10 +114,10 @@ export default function Hero() {
           animate={animateIn1}
         >
           <p className="text-white/60 inline">I&apos;m </p>
-          <span className="bg-linear-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
+          <span className="name-gradient">
             John Ludena
-          </span>
-          <p>a Full Stack Engineer</p>
+          </span>,
+          <p>a UI & UX Engineer.</p>
         </motion.h1>
 
         <motion.p
@@ -125,7 +125,7 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          currently focused on building world-class user experiences that drive growth
         </motion.p>
       </div>
 

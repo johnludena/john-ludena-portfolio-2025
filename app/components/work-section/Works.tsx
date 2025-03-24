@@ -13,76 +13,29 @@ export default function Works() {
 
   const works = [
     {
-      title: "Joy",
-      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://withjoy.com/",
-      about:
-        "Joy is a comprehensive wedding planning platform that enables couples to create personalized wedding websites, manage guest lists, send invitations, and build all-in-one registries with zero fees on cash funds.",
-      stack: [
-        "NODE.JS",
-        "JAVASCRIPT",
-        "REACT.js",
-        "GRAPHQL",
-        "POSTGRESQL",
-        "AMAZON S3",
-        "NGINX",
-        "FIREBASE",
-        "CLOUDFLARE",
-        "GOOGLE ANALYTICS",
-      ],
-      img: "/withjoy.png",
+      title: "Eleox: The Future of Natural Gas Trading",
+      liveLink: "https://www.eleox.com/",
+      about: "Eleox is a natural gas post-trading platform that is private, secure, and collaborative.",
+      stack: [],
+      img: "/eleox.png",
     },
     {
-      title: "Pomodoro Champion",
+      title: "Pomodoro Champion: Focus or Die",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
       liveLink: "https://pomodorochampion.com/",
       about:
-        "Pomodoro Champion is an application designed to help users manage their screen time effectively by implementing the Pomodoro Technique—a time management method that encourages working in focused intervals, typically 25 minutes, followed by short breaks.",
+        "Pomodoro Champion is a fun social focus app that uses group accountability as a game mechanic to keep you from getting distracted. Now available on the App Store.",
       stack: [
         "react.js",
-        "react native",
+        "capacitor.js",
         "tailwind css",
         "ios",
         "android",
-        "websocket",
+        "websockets",
+        "firebase",
+        "realtime database",
       ],
       img: "/pomodoro-champion.png",
-    },
-    {
-      title: "Botpress",
-      // gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://botpress.com/",
-      about:
-        "Botpress is a comprehensive platform for building AI agents powered by the latest Large Language Models (LLMs). It enables developers to create, deploy, and manage conversational AI applications efficiently.",
-      stack: [
-        "react",
-        "react-router",
-        "javascript",
-        "tailwindcss",
-        "NODE.JS",
-        "POSTGRESQL",
-        "THREE.JS",
-        "SALESFORCE",
-      ],
-      img: "/botpress.jpg",
-    },
-    // {
-    //   title: "Yourtodo",
-    //   gitLink: "https://github.com/adex-hub/Yourtodo",
-    //   liveLink: "https://yourtodo-v1.vercel.app/",
-    //   about:
-    //     "This task management system lets you customize your name, add, delete, and edit tasks, and celebrates you when tasks are completed. It features built-in notifications and stores data in the browser, allowing you to resume tasks conveniently. Designed and developed by yours truly.",
-    //   stack: ["react", "javascript", "figma", "sass"],
-    //   img: "/todo.svg",
-    // },
-    {
-      title: "Chevron",
-      // gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://chevron.com/",
-      about:
-        "Chevron is a multinational energy corporation committed to delivering affordable, reliable, and ever-cleaner energy. The company engages in various sectors, including oil and gas exploration, refining, marketing, and the development of renewable energy solutions.",
-      stack: ["ANGULAR","HTML","CSS","AZURE",".NET","C#","SQL","POWER BI","DEVOPS","GIT DOCKER","KUBERNETES"],
-      img: "/chevron-corp.png",
     },
   ];
 
@@ -101,7 +54,7 @@ export default function Works() {
       ref={ref}
       id="work"
     >
-      <Title>Projects</Title>
+      <Title>Currently building</Title>
       {works.map((work, index) => (
         <FolioCard
           key={index}
@@ -114,7 +67,7 @@ export default function Works() {
         />
       ))}
 
-      <Timeline />
+      {/* <Timeline /> */}
     </section>
   );
 }

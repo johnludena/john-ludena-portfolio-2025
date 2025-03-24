@@ -27,32 +27,18 @@ export default function About() {
         charSpace={"mr-[0.001em]"}
         className={`uppercase ${syne.className} antialiased text-4xl md:text-5xl xl:text-6xl font-bold opacity-80`}
       >
-        I amplify brand voices through the web
+        I’m Driven to Build Products That People Love
       </AnimatedTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
-        <div className="grid grid-cols-1 antialiased gap-6 text-white/80 text-xl md:text-2xl">
+        <div className="flex flex-col antialiased space-y-4 text-white/80 text-xl md:text-2xl">
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            My passion lies in crafting seamless digital experiences that drive
-            business growth. Whether it&apos;s building high-performance web
-            applications, optimizing API interactions, or refining frontend
-            architectures, I take pride in delivering scalable solutions that
-            enhance brand visibility and efficiency.
+          Fifteen years ago, a career that started as a love for great website design has now transformed into a passion for building great software and a relentless curiosity to make products that make a positive impact on the world.
           </AnimatedBody>
-          <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            With over 14 years of experience, I&apos;ve honed my expertise
-            across frontend and backend technologies, DevOps, and performance
-            optimization. From migrating enterprise platforms to React and
-            Next.js to engineering microservices and real-time dashboards, I
-            thrive on solving complex challenges that improve system performance
-            and user experience.
-          </AnimatedBody>
+
+
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
-            Each project is an opportunity to innovate and push the boundaries
-            of what&apos;s possible. I continuously refine my skills, embracing
-            new tools and methodologies to create solutions that businesses are
-            proud to call their own. Here&apos;s{" "}
-            <br className="hidden md:block" />
+          Curious to know more about me? Here is {" "}
             <Link
               className="underline"
               target="_blank"
@@ -60,7 +46,7 @@ export default function About() {
                 "https://drive.google.com/file/d/1dwIbYRWpD5DeyyjMXe1Rgwhw2r_KKaWB"
               }
             >
-              my résumè
+              my resume
             </Link>
             .
           </AnimatedBody>
@@ -76,7 +62,7 @@ export default function About() {
               Frontend
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              React, Next.js, Redux, Angular, TypeScript, JavaScript, SSR,
+              React.js, Next.js, Redux, Angular, React Native, Capacitor.js, TypeScript, JavaScript, SSR,
               Storybook, TailwindCSS, Material-UI, Ant Design, Radix UI
             </AnimatedBody>
           </div>
@@ -90,7 +76,7 @@ export default function About() {
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
               Node.js, Express.js, GraphQL, REST APIs, MongoDB, PostgreSQL,
-              Redis, Firebase, OAuth, JWT
+              Redis, Firebase, Google Cloud, OAuth, JWT
             </AnimatedBody>
           </div>
           <div>
@@ -103,7 +89,7 @@ export default function About() {
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
               Docker, Kubernetes, Webpack, Vite, CI/CD, GitHub Actions,
-              CircleCI, Jenkins, Cypress, Jest, Playwright, Unit Testing, E2E
+              CircleCI, Jenkins, Cypress, Jest, Unit Testing, E2E
               Testing, AWS, CloudFront, Vercel, Netlify
             </AnimatedBody>
           </div>
