@@ -11,7 +11,7 @@ const TimelineData = [
     duration: "Apr 2023 - Present",
     stuffIDid: [
       "Led the development of the next-generation energy trading platform, utilizing React.js for the frontend and Node.js for backend services, improving transaction efficiency by 35%.",
-      "Designed and implemented real-time data streaming features using WebSockets and Redux, enabling traders to receive up-tothe-minute market data, resulting in a 20% reduction in decision-making time.",
+      "Designed and implemented real-time data streaming features using WebSockets and Redux, enabling traders to receive up-to-the-minute market data, resulting in a 20% reduction in decision-making time.",
       "Optimized the platform's UI/UX by collaborating with product and design teams to enhance usability, improving user retention and satisfaction by 30% among energy traders.",
       "Built secure and scalable API endpoints to handle high-frequency trading data, integrating with third-party financial systems and supporting over 1 million transactions per day.",
       "Enhanced platform performance by implementing advanced caching mechanisms and optimizing database queries, resulting in a 50% improvement in load times and increased platform reliability.",
