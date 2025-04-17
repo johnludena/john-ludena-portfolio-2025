@@ -112,7 +112,7 @@ export default function Hero() {
           <span className="name-gradient">
             John Ludena
           </span>,
-          <p>a UI & UX Engineer.</p>
+          <p>a Software Engineer.</p>
         </motion.h1>
 
         <motion.p

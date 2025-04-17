@@ -1,24 +1,21 @@
 "use client";
-import { Syne } from "next/font/google";
 import Title from "../ui/Title";
 import TimelineItem from "./TimelineItem";
 
-const syne = Syne({ subsets: ["latin"] });
-
 const TimelineData = [
   {
-    companyImg: "/joy.png",
+    companyImg: "/eleox-icon.png",
     jobTitle: "Senior Software Engineer",
-    company: "Joy",
+    company: "Eleox",
     jobType: "Contract",
     duration: "Apr 2023 - Present",
     stuffIDid: [
-      "Optimized the front-end architecture, reducing Time to First Byte (TTFB) by 55% using Next-js ISR, RSCs, and CDN caching strategies.",
-      "Refactored the React codebase, implementing atomic design principles and a modular component system, decreasing redundancy by 40%.",
-      "Redesigned the API layer, moving from REST to GraphQL with Apollo, which cut frontend API over-fetching by 35% and improved app responsiveness.",
-      "Integrated advanced CI/CD pipelines (GitHub Actions, Vercel, Kubernetes) with automated testing and canary deployments, reducing production bugs by 80%.",
-      "Led the development of internal dashboard using React + TanStack Query to monitor real-time analytics, reducing customer support requests by 25%.",
-      "Improved Web Vitals scores (LCP, FID, CLS) by implementing React suspense, preloading strategies, and optimizing critical rendering paths.",
+      "Led the development of the next-generation energy trading platform, utilizing React.js for the frontend and Node.js for backend services, improving transaction efficiency by 35%.",
+      "Designed and implemented real-time data streaming features using WebSockets and Redux, enabling traders to receive up-tothe-minute market data, resulting in a 20% reduction in decision-making time.",
+      "Optimized the platform's UI/UX by collaborating with product and design teams to enhance usability, improving user retention and satisfaction by 30% among energy traders.",
+      "Built secure and scalable API endpoints to handle high-frequency trading data, integrating with third-party financial systems and supporting over 1 million transactions per day.",
+      "Enhanced platform performance by implementing advanced caching mechanisms and optimizing database queries, resulting in a 50% improvement in load times and increased platform reliability.",
+      "Mentored junior engineers in best practices for frontend development, API design, and performance optimization, fostering a 25% increase in team productivity.",
     ],
   },
   {

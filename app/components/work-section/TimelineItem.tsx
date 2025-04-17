@@ -57,7 +57,7 @@ export default function TimelineItem({
           <div className="leading-tight">
             <h1 className="text-2xl sm:text-[2rem] font-bold">{jobTitle}</h1>
             <p className="text-base sm:text-lg font-bold my-2 sm:my-3">
-              {company} | {jobType}
+              {company}
             </p>
           </div>
           <p className="text-base sm:text-lg text-white/60 my-3">{duration}</p>

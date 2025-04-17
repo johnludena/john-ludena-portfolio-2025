@@ -16,7 +16,15 @@ export default function Works() {
       title: "Eleox: The Future of Natural Gas Trading",
       liveLink: "https://www.eleox.com/",
       about: "Eleox is a natural gas post-trading platform that is private, secure, and collaborative.",
-      stack: [],
+      stack: [
+        "UI / UX",
+        "Figma",
+        "React.js",
+        "Storybook",
+        "Node.js",
+        "Java",
+        "Golang"
+      ],
       img: "/eleox.png",
     },
     {
@@ -67,7 +75,7 @@ export default function Works() {
         />
       ))}
 
-      {/* <Timeline /> */}
+      <Timeline />
     </section>
   );
 }
