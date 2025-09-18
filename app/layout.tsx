@@ -71,10 +71,7 @@ export const metadata: Metadata = {
   },
   category: "technology",
   icons: {
-    icon: [
-      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon.png', sizes: '16x16', type: 'image/png' }
-    ]
+    icon: '/favicon.png', // or '/path/to/your/favicon.png'
   },
 };
 

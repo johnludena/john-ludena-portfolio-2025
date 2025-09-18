@@ -42,7 +42,7 @@ export default function About() {
               className="underline"
               target="_blank"
               href={
-                "https://drive.google.com/file/d/1dwIbYRWpD5DeyyjMXe1Rgwhw2r_KKaWB"
+                "/docs/John_Ludena_Senior_Software_Engineer_Resume.pdf"
               }
             >
               my resume

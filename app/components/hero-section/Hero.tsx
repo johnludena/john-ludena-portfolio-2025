@@ -104,7 +104,7 @@ export default function Hero() {
           </motion.div>
         </motion.div>
         <motion.h1
-          className="text-[32px] smm:text-[40px] md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-bold"
+          className="text-[32px] smm:text-[40px] md:text-5xl lg:text-6xl leading-tight font-bold"
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
@@ -112,15 +112,15 @@ export default function Hero() {
           <span className="name-gradient">
             John Ludena
           </span>,
-          <p>a Software Engineer.</p>
+          <p>a Senior Design Engineer</p>
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0 }}
           animate={animateIn2}
-          className="text-white/80  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
+          className="text-white/80  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 leading-12"
         >
-          currently focused on building world-class user experiences that drive growth
+          currently focused on building world-class user experiences that drive growth.
         </motion.p>
       </div>
 
